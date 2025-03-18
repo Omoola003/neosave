@@ -113,7 +113,6 @@ Thumbs.db
 # ==========================
 *.gz
 # Ignore dependencies
-node_modules/
 
 # Ignore build files
 dist/
