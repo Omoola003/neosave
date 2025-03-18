@@ -1,0 +1,66 @@
+/* NeoSave Wallet - Admin Panel Styles */
+
+/* General Admin Page Styling */
+#neosave-wallet-admin {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#neosave-wallet-admin h2 {
+    color: #333;
+    border-bottom: 2px solid #007cba;
+    padding-bottom: 10px;
+}
+
+/* Wallet Balance Box */
+.neosave-wallet-balance {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #007cba;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Transaction Log Table */
+.neosave-wallet-transactions {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.neosave-wallet-transactions th, 
+.neosave-wallet-transactions td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.neosave-wallet-transactions th {
+    background: #007cba;
+    color: #fff;
+}
+
+/* Action Buttons */
+.neosave-button {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    background: #007cba;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.neosave-button:hover {
+    background: #005b8b;
+}
+S

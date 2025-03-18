@@ -1,0 +1,17 @@
+{
+    "name": "neosave/wallet",
+    "description": "NeoSave Wallet Plugin for WordPress",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "firebase/php-jwt": "^6.3",
+        "monolog/monolog": "^3.0",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neosave\\Wallet\\": "includes/"
+        }
+    }
+}

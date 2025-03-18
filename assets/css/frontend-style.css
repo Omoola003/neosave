@@ -1,0 +1,57 @@
+/* NeoSave Wallet Frontend Styles */
+
+.neosave-wallet-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.neosave-wallet-balance {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0073aa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.neosave-transaction-history {
+    margin-top: 20px;
+}
+
+.neosave-transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.neosave-transaction-history th, 
+.neosave-transaction-history td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.neosave-transaction-history th {
+    background: #0073aa;
+    color: #fff;
+}
+
+.neosave-wallet-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #0073aa;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.neosave-wallet-button:hover {
+    background: #005f8d;
+}
