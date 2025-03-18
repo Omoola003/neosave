@@ -112,3 +112,16 @@ Thumbs.db
 # Miscellaneous
 # ==========================
 *.gz
+# Ignore dependencies
+node_modules/
+
+# Ignore build files
+dist/
+build/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment files
+.env
